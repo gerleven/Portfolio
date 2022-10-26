@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Portfolio';
+  // ng build --target=production --environment=prod\ --base-href="https://gerleven.github.io/Portfolio/"
+  // ng add angular-cli-ghpages
 }
