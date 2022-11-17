@@ -8,8 +8,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
   declarations: [
-    CvResumeComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    CvResumeComponent
   ],
   imports: [
     CommonModule,

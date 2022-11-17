@@ -1,10 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutMeModule } from './modules/about-me/about-me.module';
 import { AboutMeComponent } from './modules/about-me/about-me/about-me.component';
-import { CvResumeComponent } from './modules/about-me/cv-resume/cv-resume.component';
+import { ArtSectionComponent } from './modules/art-section/art-section/art-section.component';
+import { MyAppsComponent } from './modules/my-apps/my-apps/my-apps.component';
 
 const routes: Routes = [
+  {
+    path: '',
+    redirectTo: 'about-me',
+    pathMatch: 'full',
+  },
   {
     path: 'about-me',
     component: AboutMeComponent,
@@ -12,10 +17,16 @@ const routes: Routes = [
       import('./modules/about-me/about-me.module').then((m) => m.AboutMeModule),
   },
   {
-    path: 'cv-resume',
-    component: CvResumeComponent,
+    path: 'art-section',
+    component: ArtSectionComponent,
     loadChildren: () =>
-      import('./modules/about-me/about-me.module').then((m) => m.AboutMeModule),
+      import('./modules/art-section/art-section.module').then((m) => m.ArtSectionModule),
+  },
+  {
+    path: 'my-apps',
+    component: MyAppsComponent,
+    loadChildren: () =>
+      import('./modules/my-apps/my-apps.module').then((m) => m.MyAppsModule),
   },
 ];
 
