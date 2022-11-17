@@ -1,10 +1,29 @@
-<p-menubar [model]="items">
-  <div>
-    <input type="text" pInputText placeholder="Search">
-    <button type="button" pButton label="Logout" icon="pi pi-power-off" style="margin-left:.25em"></button>
+<div class="container"></div>
+<div class="p-col-12">
+  <div class="row AppBar" #AppBar>
+    <p-menubar [model]="itemsAppBar" style="width: 100%;">
+      <div>
+        <button type="button" pButton icon="pi pi-user" style="margin-left:.25em"></button>
+    </div>
+    </p-menubar>
   </div>
-</p-menubar>
-Profile in progress!
+
+  <div class="row AppContent" #AppContent>
+    <div class="p-col-4 MenuBar">
+      <p-panelMenu [model]="itemsMenu" [style]="{'width':'300px'}"></p-panelMenu>
+    </div>
+    <div class="p-col-6 ModuleContent">
+      Profile in progress!
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+  <div class="p-row AppFooter" #AppFooter>
+    Footer
+  </div>
+
+</div>
+<!-- 
 
 <ul>
   <li>about-me</li>
@@ -21,4 +40,4 @@ Profile in progress!
   <li>/dynamic-schedule</li>
 </ul>
 
-<router-outlet></router-outlet>
+<router-outlet></router-outlet> -->

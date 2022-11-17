@@ -1,0 +1,25 @@
+.AppBar{
+    max-height: 10vh;
+    height: 10vh;
+}
+
+.AppContent{
+    max-height: 80vh;
+    height: 80vh;
+}
+
+.AppFooter{
+    max-height: 10vh;
+    height: 10vh;
+    background-color: rgb(1, 1, 46);
+}
+
+
+.MenuBar{
+    background-color: #fff;
+    height: 100%;
+}
+
+.ModuleContent{
+    background-color: rgb(241, 241, 241);
+}
