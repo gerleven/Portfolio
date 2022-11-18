@@ -1,27 +1,32 @@
 <div class="container"></div>
-<div class="p-col-12">
+<div class="p-col-12 no-gutters">
   <div class="row AppBar" #AppBar>
-    <p-menubar [model]="itemsAppBar" style="width: 100%;">
+    <p-menubar [model]="itemsAppBar" style="width: 100%">
       <div>
-        <button type="button" pButton icon="pi pi-user" style="margin-left:.25em"></button>
-    </div>
+        <button
+          type="button"
+          pButton
+          icon="pi pi-user"
+          style="margin-left: 0.25em"
+        ></button>
+      </div>
     </p-menubar>
   </div>
 
   <div class="row AppContent" #AppContent>
-    <div class="p-col-4 MenuBar">
-      <p-panelMenu [model]="itemsMenu" [style]="{'width':'300px'}"></p-panelMenu>
+    <div class="col-auto no-gutters MenuBar">
+      <p-panelMenu
+        [model]="itemsMenu"
+        [style]="{ width: '300px' }"
+      ></p-panelMenu>
     </div>
-    <div class="p-col-6 ModuleContent">
+    <div class="col no-gutters ModuleContent">
       Profile in progress!
       <router-outlet></router-outlet>
     </div>
   </div>
 
-  <div class="p-row AppFooter" #AppFooter>
-    Footer
-  </div>
-
+  <div class="p-row AppFooter" #AppFooter>Footer</div>
 </div>
 <!-- 
 

@@ -1,0 +1,29 @@
+.gridContent{
+    background-color: aqua;
+    padding: 5px;
+}
+.gridItem{
+    place-self: center;
+    background-color: antiquewhite;
+}
+
+.gridContent1{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(10, 10%); */
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    grid-auto-flow: row;
+    background-color: aqua;
+    padding: 5px;
+}
+
+.gridItem1{
+    place-self: center;
+    background-color: antiquewhite;
+}
+.gridItem2{
+    place-self: center;
+    background-color: antiquewhite;
+    grid-column: 2 / span 2;
+}
