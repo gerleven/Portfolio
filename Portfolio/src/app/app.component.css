@@ -1,15 +1,45 @@
-.AppBar{
-    max-height: 10vh;
-    height: 10vh;
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
-.AppContent{
-    max-height: 80vh;
-    height: 80vh;
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.col{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+.App{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    gap: 5px;
+}
+
+.AppBar{
+    /* max-height: 10vh;
+    height: 7.5vh; */
+}
+
+.AppBody{
+    height: 100%;
+    padding: 0 5px;
+    gap: 5px;
 }
 
 .AppFooter{
-    max-height: 10vh;
     height: 10vh;
     background-color: rgb(1, 1, 46);
 }
@@ -18,8 +48,12 @@
 .MenuBar{
     background-color: #fff;
     height: 100%;
+    padding: 0;
+
 }
 
 .ModuleContent{
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(248, 249, 250);
+    border-radius: 5px;
+    border: 1px solid rgb(236, 236, 236);;
 }

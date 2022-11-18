@@ -1,5 +1,6 @@
-<div class="container"></div>
-<div class="p-col-12 no-gutters">
+<div class="container col-12 App">
+
+  <!-- App Bar -->
   <div class="row AppBar" #AppBar>
     <p-menubar [model]="itemsAppBar" style="width: 100%">
       <div>
@@ -13,21 +14,24 @@
     </p-menubar>
   </div>
 
-  <div class="row AppContent" #AppContent>
-    <div class="col-auto no-gutters MenuBar">
+  <!-- App Body -->
+  <div class="row AppBody" #AppBody>
+    <div class="col-auto MenuBar">
       <p-panelMenu
         [model]="itemsMenu"
         [style]="{ width: '300px' }"
       ></p-panelMenu>
     </div>
-    <div class="col no-gutters ModuleContent">
+    <div class="col ModuleContent">
       Profile in progress!
       <router-outlet></router-outlet>
     </div>
   </div>
 
-  <div class="p-row AppFooter" #AppFooter>Footer</div>
+  <!-- App Footer -->
+  <div class="row AppFooter" #AppFooter>Footer</div>
 </div>
+
 <!-- 
 
 <ul>
