@@ -1,5 +1,4 @@
 <div class="container col-12 App">
-
   <!-- App Bar -->
   <div class="row AppBar" #AppBar>
     <p-menubar [model]="itemsAppBar" style="width: 100%">
@@ -23,27 +22,30 @@
       ></p-panelMenu>
     </div>
     <div class="col ModuleContent">
-      <div style="
-      background-color: rgb(238, 245, 255);
-      padding: 10px;
-      border-radius: 10px;
-      border: 1px solid rgb(129, 160, 202);
-      height: 60px;
-      margin-top: 10vh;
-      width: 20vw;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      justify-items: center;
-      align-items: center;
-      align-self: center;
-    ">
-    <span style="margin: auto;">
-      Profile in progress!
-    </span>
+      <div
+        style="
+          background-color: rgb(238, 245, 255);
+          padding: 10px;
+          border-radius: 10px;
+          border: 1px solid rgb(129, 160, 202);
+          margin: 5vh 0;
+          width: 40vw;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          justify-items: center;
+          align-items: center;
+          align-self: center;
+        "
+      >
+        <span style="margin: auto">
+          This portfolio is still in the development process, it will be ready
+          soon.
+        </span>
+        <a href="https://gerleven.github.io/React/"
+          >meanwhile, check out my other project
+        </a>
       </div>
-      <!-- <button mat-button>Basic</button>
-      <button mat-button color="primary">Primary</button> -->
       <router-outlet></router-outlet>
     </div>
   </div>
@@ -55,11 +57,16 @@
     </div> -->
     <div class="row">
       <div class="col-3">
-        <a href="https://www.linkedin.com/in/german-levental/">linkedin.com/in/german-levental</a>
-        <img src="" alt="">
+        <a href="https://www.linkedin.com/in/german-levental/"
+          >linkedin.com/in/german-levental</a
+        >
+        <img src="" alt="" />
       </div>
       <div class="col-3">
-        <a href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=gerleven%40gmail.com&hl=es">gerleven@gmail.com</a>
+        <a
+          href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=gerleven%40gmail.com&hl=es"
+          >gerleven@gmail.com</a
+        >
       </div>
       <div class="col-3">
         <a href="https://github.com/gerleven">github.com/gerleven</a>
@@ -70,22 +77,3 @@
     </div>
   </div>
 </div>
-
-<!-- 
-
-<ul>
-  <li>about-me</li>
-  <li>/cv-resume</li>
-  <li></li>
-  <li>art-section</li>
-  <li>/</li>
-  <li></li>
-  <li>my-apps</li>
-  <li>/my-songs</li>
-  <li>/poke-api</li>
-  <li>/gym-routine</li>
-  <li>/gym-routine-generator</li>
-  <li>/dynamic-schedule</li>
-</ul>
-
-<router-outlet></router-outlet> -->
