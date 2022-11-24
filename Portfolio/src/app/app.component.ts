@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MenuItem } from 'primeng/api';
+import {MatButtonModule} from '@angular/material/button';
 
 @Component({
   selector: 'app-root',
@@ -15,25 +16,13 @@ export class AppComponent {
   itemsMenu: MenuItem[] = [] as MenuItem[];
 
   ngOnInit() {
-    //  about-me
-    //  /cv-resume
-    //
-    //  art-section
-    //  /
-    //
-    //  my-apps
-    //  /my-songs
-    //  /poke-api
-    //  /gym-routine
-    //  /gym-routine-generator
-    //  /dynamic-schedule
-
     this.itemsAppBar = [
       {
         label: 'Menu',
         icon: 'pi pi-fw pi-bars',
       },
     ];
+
     this.itemsMenu = [
       {
         label: 'About me',
@@ -45,15 +34,35 @@ export class AppComponent {
             icon: 'pi pi-fw pi-circle',
             routerLink: ['/about-me/'],
           },
-          {
-            label: 'CV Resume',
-            icon: 'pi pi-fw pi-circle',
-            routerLink: ['/about-me/cv-resume'],
-          }
         ],
       },
       {
-        label: 'My Apps',
+        label: 'CV / Resume',
+        escape: false,
+        routerLink: ['/cv'],
+        items: [
+          {
+            label: 'CV online',
+            icon: 'pi pi-fw pi-circle',
+            routerLink: ['cv/cv-online/'],
+          },
+          
+        ],
+      },
+      {
+        label: 'My Angular Apps',
+        escape: false,
+        routerLink: ['/angular-apps'],
+        items: [
+          {
+            label: 'Poke API',
+            icon: 'pi pi-fw pi-circle',
+            routerLink: ['angular-apps/poke-api/'],
+          },
+        ],
+      },
+      {
+        label: 'My React Apps',
         escape: false,
         routerLink: ['/my-apps'],
         items: [

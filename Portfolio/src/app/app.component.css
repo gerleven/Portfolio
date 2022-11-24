@@ -17,6 +17,7 @@ body{
 
 a{
     text-decoration: none;
+    color: #fff;
 }
 
 .App{
@@ -42,6 +43,13 @@ a{
 .AppFooter{
     height: 10vh;
     background-color: rgb(1, 1, 46);
+    color: #fff;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    justify-items: center;
 }
 
 
