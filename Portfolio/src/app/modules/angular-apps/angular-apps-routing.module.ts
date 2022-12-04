@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LazyloadExampleAppComponent } from './lazyload-example-app/lazyload-example-app.component';
-// import { AngularAppsHomeComponent } from './angular-apps-home/angular-apps-home.component';
 import { PokeApiComponent } from './poke-api/poke-api.component';
 import { WeatherApiComponent } from './weather-api/weather-api.component';
 

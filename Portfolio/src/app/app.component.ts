@@ -48,6 +48,11 @@ export class AppComponent {
             icon: 'pi pi-fw pi-circle',
             routerLink: ['cv/cv-online/'],
           },
+          {
+            label: 'Resume online',
+            icon: 'pi pi-fw pi-circle',
+            routerLink: ['cv/resume-online/'],
+          },
           
         ],
       },
@@ -76,32 +81,27 @@ export class AppComponent {
       {
         label: 'My React Apps',
         escape: false,
-        routerLink: ['/my-apps'],
+        routerLink: ['/react-apps'],
         items: [
           {
             label: 'My Songs',
             icon: 'pi pi-fw pi-circle',
-            routerLink: ['my-apps/my-songs/'],
-          },
-          {
-            label: 'Poke API',
-            icon: 'pi pi-fw pi-circle',
-            routerLink: ['my-apps/poke-api/'],
+            routerLink: ['react-apps/my-songs/'],
           },
           {
             label: 'Gym Routine',
             icon: 'pi pi-fw pi-circle',
-            routerLink: ['my-apps/gym-routine/'],
+            routerLink: ['react-apps/gym-routine/'],
           },
           {
             label: 'Gym Route Generator',
             icon: 'pi pi-fw pi-circle',
-            routerLink: ['my-apps/gym-routine-generator/'],
+            routerLink: ['react-apps/gym-routine-generator/'],
           },
           {
             label: 'Dynamic Schedule',
             icon: 'pi pi-fw pi-circle',
-            routerLink: ['my-apps/dynamic-schedule/'],
+            routerLink: ['react-apps/dynamic-schedule/'],
           },
         ],
       },
