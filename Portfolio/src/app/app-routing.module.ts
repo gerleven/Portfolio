@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutMeComponent } from './modules/about-me/about-me-page.view/about-me.component';
-import { AngularAppsHomeComponent } from './modules/angular-apps/angular-apps-home/angular-apps-home.component';
-import { CvResumeHomeComponent } from './modules/cv-resume/cv-resume-home/cv-resume-home.component';
-import { ReactAppsHomeComponent } from './modules/react-apps/react-apps-home/react-apps-home.component';
+import { AboutMeComponent } from './modules/about-me/about-me-page-view/about-me.component';
+import { AngularAppsHomeComponent } from './modules/angular-apps/angular-apps-page-view/angular-apps-home.component';
+import { CvResumeHomeComponent } from './modules/cv-resume/cv-resume-page-view/cv-resume-home.component';
+import { ReactAppsHomeComponent } from './modules/react-apps/react-apps-page-view/react-apps-home.component';
 
 const routes: Routes = [
   {

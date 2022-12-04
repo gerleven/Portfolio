@@ -8,8 +8,6 @@ import { AboutMeHomePageComponent } from './pages/about-me-home-page/about-me-ho
 
 @NgModule({
   declarations: [
-    
-  
     AboutMeHomePageComponent
   ],
   imports: [
