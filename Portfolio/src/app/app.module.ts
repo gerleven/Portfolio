@@ -39,3 +39,5 @@ import { ReactAppsHomeComponent } from './modules/react-apps/react-apps-page-vie
   bootstrap: [AppComponent],
 })
 export class AppModule {}
+
+//ng deploy --base-ref=/Porfolio/
