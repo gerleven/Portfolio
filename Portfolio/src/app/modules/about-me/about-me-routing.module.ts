@@ -1,12 +1,18 @@
-import { Component, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutMeComponent } from './about-me/about-me.component';
-import { CvResumeComponent } from './cv-resume/cv-resume.component';
+import { AboutMeHomePageComponent } from './pages/about-me-home-page/about-me-home-page.component';
+
 
 const routes: Routes = [
   {
-    path: "cv-resume",
-    component: CvResumeComponent
+    path: "",
+    redirectTo: "about-me-home-page",
+    pathMatch: 'full',
+  }
+  ,
+  {
+    path: "about-me-home-page",
+    component: AboutMeHomePageComponent,
   }
 ];
 

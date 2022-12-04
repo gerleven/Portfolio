@@ -10,7 +10,7 @@ import { WeatherApiComponent } from './weather-api/weather-api.component';
   declarations: [
     PokeApiComponent,
     LazyloadExampleAppComponent,
-    WeatherApiComponent
+    WeatherApiComponent,
   ],
   imports: [
     CommonModule,

@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutMeComponent } from './modules/about-me/about-me/about-me.component';
+import { AboutMeComponent } from './modules/about-me/about-me-page.view/about-me.component';
 import { AngularAppsHomeComponent } from './modules/angular-apps/angular-apps-home/angular-apps-home.component';
+import { CvResumeHomeComponent } from './modules/cv-resume/cv-resume-home/cv-resume-home.component';
 import { ReactAppsHomeComponent } from './modules/react-apps/react-apps-home/react-apps-home.component';
 
 const routes: Routes = [
@@ -18,22 +19,28 @@ const routes: Routes = [
   },
   {
     path: 'cv',
-    component: AboutMeComponent,
+    component: CvResumeHomeComponent,
     loadChildren: () =>
-      import('./modules/about-me/about-me.module').then((m) => m.AboutMeModule),
+      import('./modules/cv-resume/cv-resume.module').then(
+        (m) => m.CvResumeModule
+      ),
   },
   {
     path: 'angular-apps',
     component: AngularAppsHomeComponent,
     loadChildren: () =>
-      import('./modules/angular-apps/angular-apps.module').then((m) => m.AngularAppsModule),
+      import('./modules/angular-apps/angular-apps.module').then(
+        (m) => m.AngularAppsModule
+      ),
   },
   {
     path: 'react-apps',
     component: ReactAppsHomeComponent,
     loadChildren: () =>
-      import('./modules/react-apps/react-apps.module').then((m) => m.ReactAppsModule),
-  }
+      import('./modules/react-apps/react-apps.module').then(
+        (m) => m.ReactAppsModule
+      ),
+  },
 ];
 
 @NgModule({

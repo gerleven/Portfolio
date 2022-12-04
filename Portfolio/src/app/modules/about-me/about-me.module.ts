@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
 import { AboutMeRoutingModule } from './about-me-routing.module';
-import { CvResumeComponent } from './cv-resume/cv-resume.component';
-import { AboutMeComponent } from './about-me/about-me.component';
+import { AboutMeHomePageComponent } from './pages/about-me-home-page/about-me-home-page.component';
+
+
 
 
 @NgModule({
   declarations: [
-    AboutMeComponent,
-    CvResumeComponent
+    
+  
+    AboutMeHomePageComponent
   ],
   imports: [
     CommonModule,

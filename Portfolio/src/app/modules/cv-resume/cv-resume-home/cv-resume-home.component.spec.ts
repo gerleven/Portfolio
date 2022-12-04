@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CvResumeComponent } from './cv-resume.component';
+import { CvResumeHomeComponent } from './cv-resume-home.component';
 
-describe('CvResumeComponent', () => {
-  let component: CvResumeComponent;
-  let fixture: ComponentFixture<CvResumeComponent>;
+describe('CvResumeHomeComponent', () => {
+  let component: CvResumeHomeComponent;
+  let fixture: ComponentFixture<CvResumeHomeComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CvResumeComponent ]
+      declarations: [ CvResumeHomeComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CvResumeComponent);
+    fixture = TestBed.createComponent(CvResumeHomeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

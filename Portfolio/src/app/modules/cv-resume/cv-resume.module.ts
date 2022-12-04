@@ -5,7 +5,8 @@ import { CvResumeRoutingModule } from './cv-resume-routing.module';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+  ],
   imports: [
     CommonModule,
     CvResumeRoutingModule
