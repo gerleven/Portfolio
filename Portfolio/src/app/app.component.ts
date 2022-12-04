@@ -34,7 +34,7 @@ export class AppComponent {
           {
             label: 'About Me',
             icon: 'pi pi-fw pi-circle',
-            routerLink: ['/about-me/'],
+            routerLink: ['/about-me/about-me-page'],
           },
         ],
       },
@@ -46,12 +46,12 @@ export class AppComponent {
           {
             label: 'CV online',
             icon: 'pi pi-fw pi-circle',
-            routerLink: ['cv/cv-online/'],
+            routerLink: ['cv/cv-page/'],
           },
           {
             label: 'Resume online',
             icon: 'pi pi-fw pi-circle',
-            routerLink: ['cv/resume-online/'],
+            routerLink: ['cv/resume-page/'],
           },
           
         ],
