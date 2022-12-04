@@ -40,4 +40,4 @@ import { ReactAppsHomeComponent } from './modules/react-apps/react-apps-page-vie
 })
 export class AppModule {}
 
-//ng deploy --base-ref=/Porfolio/
+//ng deploy --base-ref=/Portfolio/
