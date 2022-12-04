@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { DynamicScheduleComponent } from './dynamic-schedule/dynamic-schedule.component';
 import { GymRoutineGeneratorComponent } from './gym-routine-generator/gym-routine-generator.component';
 import { GymRoutineComponent } from './gym-routine/gym-routine.component';
+import { LazyloadExampleComponent } from './lazyload-example/lazyload-example.component';
 import { MySongsComponent } from './my-songs/my-songs.component';
 import { PokeApiComponent } from './poke-api/poke-api.component';
 
@@ -10,6 +11,10 @@ const routes: Routes = [
   {
     path: 'my-songs',
     component: MySongsComponent,
+  },
+  {
+    path: 'lazyload-example-app',
+    component: LazyloadExampleComponent,
   },
   {
     path: 'poke-api',

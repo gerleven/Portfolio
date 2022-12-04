@@ -8,6 +8,7 @@ import { PokeApiComponent } from './poke-api/poke-api.component';
 import { GymRoutineComponent } from './gym-routine/gym-routine.component';
 import { GymRoutineGeneratorComponent } from './gym-routine-generator/gym-routine-generator.component';
 import { DynamicScheduleComponent } from './dynamic-schedule/dynamic-schedule.component';
+import { LazyloadExampleComponent } from './lazyload-example/lazyload-example.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { DynamicScheduleComponent } from './dynamic-schedule/dynamic-schedule.co
     PokeApiComponent,
     GymRoutineComponent,
     GymRoutineGeneratorComponent,
-    DynamicScheduleComponent
+    DynamicScheduleComponent,
+    LazyloadExampleComponent
   ],
   imports: [
     CommonModule,

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { MenuItem } from 'primeng/api';
 import {MatButtonModule} from '@angular/material/button';
 
+//ng deploy --base-href=/Portfolio/
 
 @Component({
   selector: 'app-root',
@@ -55,6 +56,16 @@ export class AppComponent {
         escape: false,
         routerLink: ['/angular-apps'],
         items: [
+          {
+            label: 'Weather API',
+            icon: 'pi pi-fw pi-circle',
+            routerLink: ['angular-apps/weather-api/'],
+          },
+          {
+            label: 'LazyLoad Example App',
+            icon: 'pi pi-fw pi-circle',
+            routerLink: ['angular-apps/lazyload-example-app/'],
+          },
           {
             label: 'Poke API',
             icon: 'pi pi-fw pi-circle',

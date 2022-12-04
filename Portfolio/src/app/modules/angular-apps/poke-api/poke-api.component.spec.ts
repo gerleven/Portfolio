@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ArtSectionComponent } from './art-section.component';
+import { PokeApiComponent } from './poke-api.component';
 
-describe('ArtSectionComponent', () => {
-  let component: ArtSectionComponent;
-  let fixture: ComponentFixture<ArtSectionComponent>;
+describe('PokeApiComponent', () => {
+  let component: PokeApiComponent;
+  let fixture: ComponentFixture<PokeApiComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ArtSectionComponent ]
+      declarations: [ PokeApiComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ArtSectionComponent);
+    fixture = TestBed.createComponent(PokeApiComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

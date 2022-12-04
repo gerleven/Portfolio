@@ -10,9 +10,10 @@ import { MenubarModule } from 'primeng/menubar';
 import { InputTextModule } from 'primeng/inputtext';
 import { PanelMenuModule } from 'primeng/panelmenu';
 import { FooterComponent } from './global-components/footer/footer.component';
+import { AngularAppsHomeComponent } from './modules/angular-apps/angular-apps-home/angular-apps-home.component';
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent],
+  declarations: [AppComponent, FooterComponent, AngularAppsHomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
