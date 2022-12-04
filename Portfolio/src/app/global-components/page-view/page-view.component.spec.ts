@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GymRoutineComponent } from './gym-routine.component';
+import { PageViewComponent } from './page-view.component';
 
-describe('GymRoutineComponent', () => {
-  let component: GymRoutineComponent;
-  let fixture: ComponentFixture<GymRoutineComponent>;
+describe('PageViewComponent', () => {
+  let component: PageViewComponent;
+  let fixture: ComponentFixture<PageViewComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GymRoutineComponent ]
+      declarations: [ PageViewComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(GymRoutineComponent);
+    fixture = TestBed.createComponent(PageViewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

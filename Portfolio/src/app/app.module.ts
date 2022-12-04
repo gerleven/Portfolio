@@ -11,10 +11,10 @@ import { InputTextModule } from 'primeng/inputtext';
 import { PanelMenuModule } from 'primeng/panelmenu';
 import { FooterComponent } from './global-components/footer/footer.component';
 import { AngularAppsHomeComponent } from './modules/angular-apps/angular-apps-home/angular-apps-home.component';
-import { ReactAppsHomeComponent } from './modules/react-apps/react-apps-home/react-apps-home.component';
+import { PageViewComponent } from './global-components/page-view/page-view.component';
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent, AngularAppsHomeComponent, ReactAppsHomeComponent],
+  declarations: [AppComponent, FooterComponent, AngularAppsHomeComponent, PageViewComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
