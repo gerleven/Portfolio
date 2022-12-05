@@ -37,6 +37,7 @@ body{
 
 .AppBar{
     height: 7.5vh;
+    width: 100%;
 }
 
 .AppBody{

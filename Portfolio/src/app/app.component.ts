@@ -27,7 +27,7 @@ export class AppComponent {
 
     this.itemsMenu = [
       {
-        label: 'About me',
+        label: 'About',
         escape: false,
         routerLink: ['/about-me'],
         items: [
