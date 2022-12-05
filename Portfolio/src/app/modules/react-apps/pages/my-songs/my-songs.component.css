@@ -1,0 +1,10 @@
+.img-preview{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    border: 1px solid rgb(192, 221, 248);
+    border-radius: 30px;
+    
+    background-color: #FFF;
+}

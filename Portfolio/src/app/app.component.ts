@@ -36,6 +36,11 @@ export class AppComponent {
             icon: 'pi pi-fw pi-circle',
             routerLink: ['/about-me/about-me-page'],
           },
+          {
+            label: 'About this project',
+            icon: 'pi pi-fw pi-circle',
+            routerLink: ['/about-me/about-this-project'],
+          },
         ],
       },
       {
