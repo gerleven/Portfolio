@@ -13,6 +13,7 @@ export class AboutMeComponent implements OnInit {
   }
 
   myTest(e: string){
+    debugger
     alert(e)
   }
 
