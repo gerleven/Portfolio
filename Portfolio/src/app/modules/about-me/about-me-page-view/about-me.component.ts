@@ -12,9 +12,4 @@ export class AboutMeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  myTest(e: string){
-    debugger
-    alert(e)
-  }
-
 }
