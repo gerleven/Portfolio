@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, Input, OnInit, } from '@angular/core';
 
 @Component({
   selector: 'app-page-view',
@@ -11,13 +11,13 @@ export class PageViewComponent implements OnInit {
 
   @Input() pageViewTitle: string = "";
   @Input() pageViewSubTitle: string = "";
-  // @Output() test = new EventEmitter<string>();
+  
 
   ngOnInit(): void {
   }
 
   onClickTest(){
-    // this.test.emit("Hola desde page view"+" posta");
+    alert("deleted")
   }
 
 }
